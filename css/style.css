@@ -11,10 +11,11 @@ body {
 }
 .promo-block {
 	position: relative;
-	margin-bottom: 7.5%;
-	background: url(../img-css/photo-promo.jpg) no-repeat;
-	width: 100%;
-	height: 112%;
+    margin-bottom: 7.5%;
+    background: url(../img-css/photo-promo.jpg) no-repeat;
+    width: 100%;
+    padding: 18% 0 33%;
+    background-size: cover;
 }
 .wrap-header {
 	position: absolute;
@@ -53,14 +54,14 @@ body {
 	flex-wrap: wrap;
 }
 .wrap-footer {
-	background: url(../img-css/bg-footer.png) no-repeat;
+	background: url(../img-css/bg-footer.jpg) no-repeat;
 	width: 100%;
-	height: 190%;
+	padding: 1% 0;
 }
 /*****ui elements****/
 .logo {
 	float: left;
-	padding: 1% 0 0 2%;;
+	padding: 1% 0 0 2%;
 }
 .menu-toggle {
 	color: #36aeea;
@@ -124,6 +125,7 @@ body {
 .col img {
 	display: block;
 	width: 100%;
+	height: auto;
 }
 .brand-logos a {
 	display: block;
@@ -136,6 +138,10 @@ body {
 }
 .col-clients {
 	margin-bottom: 13%;
+}
+.avatar {
+	display: inline-block;
+	border-radius: 50px;
 }
 .col-clients p {
 	position: relative;

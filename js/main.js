@@ -1,6 +1,9 @@
 $('#popup-open').click(function () {
     $('.wrap-popup').fadeIn();
 });
+$('.wrap-popup').click(function () {
+    $('.wrap-popup').fadeOut()
+});
 
 
 

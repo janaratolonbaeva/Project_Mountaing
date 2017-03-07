@@ -14,7 +14,7 @@ body {
     margin-bottom: 7.5%;
     background: url(../img-css/photo-promo.jpg) no-repeat;
     width: 100%;
-    padding: 18% 0 33%;
+    padding: 18% 0 33.5%;
     background-size: cover;
 }
 .wrap-header {
@@ -38,7 +38,7 @@ body {
 }
 .col {
 	box-sizing: border-box;
-	margin-bottom: 2.5%;
+	margin-bottom: 2%;
 }
 .wrap-brend-logos {
 	background: #f8f9fa;
@@ -56,7 +56,7 @@ body {
 .wrap-footer {
 	background: url(../img-css/bg-footer.jpg) no-repeat;
 	width: 100%;
-	padding: 1% 0;
+	padding-bottom: 2%;;
 }
 /*****ui elements****/
 .logo {
@@ -117,9 +117,9 @@ body {
 	margin-bottom: 4.5%;
 }
 .title {
-	font-size: 1.6em;;
+	font-size: 30px;;
 	color: #2c2e37;
-	line-height: 42px;
+	line-height: 46px;
 	text-transform: uppercase;
 }
 .col img {
@@ -137,7 +137,7 @@ body {
 	margin-top: 8.5%;
 }
 .col-clients {
-	margin-bottom: 13%;
+	margin-bottom: 11%;
 }
 .avatar {
 	display: inline-block;
@@ -157,8 +157,16 @@ body {
 	top: -23%;
 	left: 0;
 }
+.avatar-block { 
+}
+.fl-left {
+	float: left;
+    padding-top: 23px;
+}
 .col-clients span {
 	color: #36aeea;
+	float: left;
+	padding: 39px 0 0 15px;
 }
 .col-clients a {
 	text-decoration: none;
@@ -186,7 +194,7 @@ body {
 	width: 90%;
 	max-width: 455px;
 	text-align: center;
-	padding: 1% 0 9% 0;
+	padding: 1px 0 31px;
 }
 .container-form h3 {
 	font-size: 2.2em;
@@ -195,25 +203,37 @@ body {
 	margin-bottom: 0;
 }
 .container-form p {
-	font-size: 1em;
+	font-size: 16px;
 	line-height: 3px;
 	color: #383e4a;
 }
-.container-form input {
+.form-row input {
 	width: 100%;
-	font-size: 1.2em;
 	color: #ccc;
-	line-height: 55px;
-	margin-bottom: 4%;
+	line-height: 53px;
+	margin-bottom: 20px;
+	color: #383e4a;
+	font-size: 18px;
+	padding-left: 16px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 3px solid #fff;;;
 }
 .form-row {
 	margin-top: 9%;
 }
-.btn-form {
+.form-row .btn-form {
 	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 67px;
 	background: #36aeea;
 	border: none;
 	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 1px;
+	padding: 0;;;
 }
 .wrap-popup {
 	width: 100%;
@@ -275,8 +295,8 @@ body {
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
-		justify-content: space-between;
-		margin-top: 8.5%;
+		justify-content: space-around;
+		margin-top: 8.4%;
 	}
 	.col-clients {
 		width: 49%;

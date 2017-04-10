@@ -6,10 +6,32 @@ $('.wrap-popup').click(function () {
 });
 
 
+function setupSmoothScroll() {
+    function scrollTo(target) {
+        $('html, body').animate(
+            {scrollTop: target.offset().top},
+            500
+        );
+    }
 
-// var validation = $('#reg-form').validate({
-    
-//     }
-// });
+    $('a[href="#main-slide"]').click(function () {
+        scrollTo($("#promo"));
+    });
 
-// $('#phone').mask('+(999)999-99-99-99')
+    $('a[href="#gallery"]').click(function () {
+        scrollTo($("#gallery"));
+    });
+
+    $('a[href="#clients-say"]').click(function () {
+        scrollTo($("#clients-say"));
+    });
+
+    $('a[href="#contacts"]').click(function () {
+        scrollTo($("#contacts"));
+    });
+}
+
+$(document).ready(function () { 
+	setupSmoothScroll();
+});
+
